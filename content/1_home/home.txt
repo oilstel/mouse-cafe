@@ -1,0 +1,66 @@
+Title: Home
+
+----
+
+Today: Today's brew tastes like mouse.
+
+----
+
+Marquee: "A man or a community is rich, a pearl or a •· diamond is valuable . . . A pearl or a diamond is valuable as a pearl or diamond."
+
+----
+
+Text: 
+
+----
+
+Footer: Your local New York mouse hole. For news, gossip, and everything in between.
+
+----
+
+Cover: 
+
+- messages-image-2237409834.png
+
+----
+
+Strings: 
+
+- 
+  text: >
+    "YOUR SKY is just a HOLE on the roof of
+    my world," says the frog in the well.
+  street: >
+    "YOUR SKY is just a HOLE on the roof of
+    my world," says the frog in the well.
+- 
+  text: appalling, cautious, philistine eaters
+  street: >
+    The new divide is between two groups
+    that the British author David Goodheart
+    terms "anywheres" and "somewheres."
+- 
+  text: >
+    The new divide is between two groups
+    that the British author David Goodheart
+    terms "anywheres" and "somewheres."
+  street: >
+    I keep my Post-Its on an English nursery
+    dish that says "To be Happy Without
+    Being Holy Is Impossible."
+
+----
+
+Text-color: #258A3C
+
+----
+
+Bg-color: #B7BB80
+
+----
+
+Image: - drawing.jpg
+
+----
+
+Logo: 

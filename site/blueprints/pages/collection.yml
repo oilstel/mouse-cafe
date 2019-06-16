@@ -1,0 +1,12 @@
+title: Collection
+
+columns:
+  main:
+    sections:
+      pages:
+        type: pages
+        headline: Posts
+        multiple: false
+        template: default
+
+

@@ -1,0 +1,43 @@
+title: Home
+pages: false
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          today:
+            label: Today's report
+            type: text
+            size: medium
+          marquee:
+            label: Marquee
+            type: textarea
+            size: medium
+          text:
+            label: Homepage text
+            type: textarea
+            size: large
+          footer:
+            label: Footer
+            type: text
+            size: medium
+  sidebar:
+    width: 1/3
+    sections:
+      sidebar:
+        type: fields
+        fields:
+          cover:
+            headline: Logo
+            template: cover
+            type: files
+            query: page.images
+            multiple: false
+            max: 1
+            layout: cards
+      files:
+        type: files
+        headline: Files

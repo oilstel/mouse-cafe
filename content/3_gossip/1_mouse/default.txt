@@ -1,0 +1,25 @@
+Title: Mouse
+
+----
+
+Text: 
+
+In set theory, a mouse is a small model of (a fragment of) Zermelo–Fraenkel set theory with desirable properties. The exact definition depends on the context. In most cases, there is a technical definition of "premouse" and an added condition of iterability (referring to the existence of wellfounded iterated ultrapowers): a mouse is then an iterable premouse. The notion of mouse generalizes the concept of a level of Gödel's constructible hierarchy while being able to incorporate large cardinals.
+
+Mice are important ingredients of the construction of core models. The concept was isolated by Ronald Jensen in the 1970s and has been used since then in core model constructions of many authors.
+
+https://en.wikipedia.org/wiki/Mouse_(set_theory)
+
+(image: mouse_sideways_schematic.svg.png)
+
+(image: vector_diagram_of_mouse_lying_on_its_back.svg.png)
+
+(image: mouse_gas_by_mimooh.svg.png)
+
+----
+
+Date: 2019-06-16
+
+----
+
+Time: 02:45 am

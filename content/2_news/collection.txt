@@ -1,0 +1,13 @@
+Title: News
+
+----
+
+Text: 
+
+----
+
+Text-color: rgb(60, 32, 99)
+
+----
+
+Bg-color: rgb(196, 196, 196)

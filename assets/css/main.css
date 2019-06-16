@@ -1,0 +1,177 @@
+*, *:before, *:after { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 25px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) ) ;
+    grid-gap: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr 1fr 1fr;
+    height: 100vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+h1, h2, h3, h4, p, figure, em, ul, ol, li, nav {
+    font-weight: initial;
+    font-size: initial;
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+em {
+    font-style: italic;
+}
+a {
+    color: #000;
+    word-break: break-all;
+}
+p {
+    margin-bottom: 1em;
+}
+p:last-child {
+    margin-bottom: 0 !important;
+}
+h2 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+img, iframe {
+    width: 100%;
+    max-width: 1000px;
+}
+ul, ol {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+#mouse-break {
+    width: 100px;
+    height: 70px;
+    border: 0;
+    display: inline-block;
+    background: url('../images/mouse-break.png') no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+}
+#logo {
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.active {
+    font-weight: bold;
+}
+.title {
+    grid-area: 1 / 1 / 2 / 3;
+    border: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+}
+/* #title-text {
+    margin-bottom: 6px;
+    display: block;
+} */
+.date {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(113, 113, 113);
+}
+.marquee {
+    grid-area: 1 / 3 / 2 / 6;
+    border: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.content {
+    grid-area: 2 / 1 / 5 / 4;
+    border: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.sidebar {
+    grid-area: 2 / 4 / 5 / 6;
+    border: 1px solid #000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.footer {
+    grid-area: 5 / 1 / 6 / 6;
+    float: right;
+    padding-bottom: 0 !important;
+}
+.footer .footer-text {
+    float: right;
+}
+.footer::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    margin-right: .5em;
+    display: inline-block;
+    float: right;
+    background: url('../images/mouse-hole.svg') no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+}
+.title, .marquee, .content, .sidebar, .footer {
+    padding: 16px;
+}
+/* .bottom {
+    position: relative;
+    bottom: 0;
+} */
+@media (max-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: initial;
+        height: initial;
+    }
+    .title {
+        order: 1;
+        height: 100%;
+        grid-area: initial;
+        border-right: 0;
+    }
+    #subtitle {
+        display: block;
+        margin-top: 10px;
+    }
+    #logo {
+        width: 150px;
+    }
+    .marquee {
+        order: 2;
+        grid-area: initial;
+    }
+    .content {
+        order: 4;
+        grid-area: initial;
+        border-right: 0;
+        height: auto;
+        overflow: initial;
+    }
+    .sidebar {
+        order: 3; 
+        grid-area: initial;
+    }
+    .footer {
+        order: 5; 
+        grid-area: initial;
+        border-bottom: 1px solid #000;
+    }
+}
