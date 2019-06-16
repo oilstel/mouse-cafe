@@ -1,3 +1,3 @@
 <section class="footer">
-    <div class="footer-text"><?= page('home')->footer() ?></div>lily
+    <div class="footer-text"><?= page('home')->footer() ?></div>
 </section>
